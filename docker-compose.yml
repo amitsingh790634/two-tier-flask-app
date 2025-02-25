@@ -20,8 +20,7 @@ services:
       start_period: 60s
 
   flask-app:
-    build:
-      context: .
+    image: amitsingh790634/python-app-mini-multistage
     container_name: flask-app
     ports:
       - "5000:5000"
