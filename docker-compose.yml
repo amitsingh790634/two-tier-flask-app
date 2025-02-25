@@ -23,7 +23,7 @@ services:
     image: amitsingh790634/python-app-mini-multistage
     container_name: flask-app
     ports:
-      - "5000:5000"
+      - "5000:80"
     environment:
       MYSQL_HOST: mysql
       MYSQL_USER: root
