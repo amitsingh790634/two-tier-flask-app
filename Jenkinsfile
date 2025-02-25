@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Code Clone') {
+        stage('Code Clone ho gya') {
             steps {
                 echo "🔄 Cloning repository..."
                 git url: 'https://github.com/amitsingh790634/two-tier-flask-app.git', branch: 'main'
